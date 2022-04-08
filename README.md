@@ -7,3 +7,11 @@ line of each instance will be space delimited positive integers which will be th
 
 For each instance, your program should output the number of page faults achieved by furthest in the
 future paging assuming the cache is initially empty at the start of processing the page request sequence.
+
+# Different versions
+
+Pagingorigin is a valid greedy algorithm with small running speed.
+
+Paging3 is the best version of the algorithm because it implements the priority queue and improve the complixity a lot. 
+
+Paging and Paging2 are several stages I developed Paging3. In each of the stage, I found some bugs and fixed them.
