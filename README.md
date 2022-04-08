@@ -8,6 +8,8 @@ line of each instance will be space delimited positive integers which will be th
 For each instance, your program should output the number of page faults achieved by furthest in the
 future paging assuming the cache is initially empty at the start of processing the page request sequence.
 
+You can use "make" and "make run" to use the program.
+
 # Different versions
 
 Pagingorigin is a valid greedy algorithm with small running speed.
